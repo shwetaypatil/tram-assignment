@@ -1,0 +1,57 @@
+﻿@font-face {
+  font-family: "Gerbil";
+  src: url("./assets/gerbil.otf") format("opentype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --ink: #111018;
+  --muted: #6e6a73;
+  --paper: #fbfaf7;
+  --line: #e9e5df;
+  --mint: #d9f2df;
+  --coral: #ff5f57;
+  --violet: #9a4cff;
+  --yellow: #ffd34e;
+  --green: #73c686;
+  font-family: "Gerbil", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: #111;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+
+
+
+
